@@ -1,5 +1,7 @@
 # samwatch
 
+> Forked from mxitgo/samwatch.git to support .ts file change
+
 samwatch is a tool based in nodemon that helps you monitor and transport your changes from your source tree structure to the .sam-build tree structure while developing with AWS SAM. 
 
 samwatch detects changes in your source files, and if the current changed file already exists inside the .sam-build tree structure, it makes a copy of it in the corresponding .sam-build location, keeping your source and .sam-build folders in sync. 
